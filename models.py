@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 from enum import Enum
 
-# Definimos el Enum primero para poder usarlo en Caballero
 class Material(str, Enum):
     BRONCE = "Bronce"
     PLATA = "Plata"
